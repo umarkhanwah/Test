@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model line - Honda</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/theme.js"></script>
+</head>
+<body >
+    <nav class="navbar navbar-expand-lg navbar-light bg" id="top">
+
+        <div class="container">
+            <!-- <div class="row">
+      <div class="col-lg-3">         
+            <div class="col-lg-3 navbar-brand "> -->
+                
+                <a href="index.html">
+                    <img src="imgs/Honda Logo.png" height="50"  class="logo1" alt="">
+                    <img src="imgs/Logo2.png" height="70" width="210" style="display:none ;" class="logo2" alt="">
+                </a> <!-- </div>  </div> 
+        <div class="col-lg-9"> -->
+<!-- <button class="navbar-toggler d-md-block d-lg-none" data-bs-toggle="offcanvas" data-bs-target="#mynavbar">
+    <span class="navbar-toggler-icon"></span>
+</button>  -->
+<!-- <button class="btn btn-outline-dark" data-bs-toggle="offcanvas" data-bs-target="#mynavbar">
+    <i class="fa-solid fa-bars fa-3x"></i>
+  </button> -->
+
+<div class="offcanvas d-lg-none d-xl-none d-md-block offcanvas-end" id="mynavbar">
+    <div class="offcanvas-header bgoff">
+<div class="row">
+    <div class="col-1">
+        <button class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#mynavbar"></button>
+    </div>
+    <div class="col-4 col-md-3 mt-md-3">
+        <img src="imgs/user.png" alt="" class="img-fluid rounded-circle">
+    </div>
+    <div class="col-7 col-md-8 mt-3">
+        <h2 class="display-4 ">User Name</h2>
+        <p class="ms-1 para text-light">Something about User</p>
+    </div>
+
+</div>
+    </div>
+    <div class="offcanvas-body">
+        <div class="row">
+            <div class="col-1"></div>
+       <div class="col-11">
+            <form role="search" class="d-flex d-md-flex d-sm-flex d-lg-none d-xl-none ">
+            <input type="search" placeholder="Search" class="form-control">
+        
+            <button class="btn text-dark" type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form></div>
+    </div>
+        <ul class="">
+                <li class="my-2">
+                    <a href="index.html" class="nav-link">
+                   Home
+                    </a>
+                </li>
+                <li class="my-2">
+                    <a href="#" class="nav-active nav-link">
+                        <i class="fa-solid fa-table-cells"></i>
+
+                        </i> Model Line
+                    </a>
+                </li>
+                <li class="my-2">
+                    <a href="index.html" class="nav-link">Library</a>
+                </li>
+                <li class="my-2">
+                    <a href="index.html" class="nav-link">About Us</a> 
+                </li>
+                <li class="my-2 dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        Join us</a>
+                        <div class="dropdown-menu">
+                            <!-- <a href="#" class="dropdown-item">test</a> -->
+                            
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal" class="dropdown-item">Sign Up</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#modal2" class="dropdown-item">Log In</a>
+                        </div>
+                    </li>
+                <li class="my-2">
+                    <a href="contact.html" class="nav-link">Contact US</a>
+                </li>
+                    
+</ul>
+</div>
+
+
+</div>
+<!-- </div>      
+       <div class="container "> -->
+          
+                <!-- <div class="collapse navbar-collapse" id="mynavbar"> -->
+        
+            <ul class="navbar-nav  d-sm-none d-none d-md-none d-lg-flex d-xl-flex ms-auto">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">
+                      Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-active nav-link">
+                        <i class="fa-solid fa-table-cells"></i>
+                         Model Line
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Library</a>
+                </li>
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">About Us</a> 
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                        Join us</a>
+                        <div class="dropdown-menu">
+                            <!-- <a href="#" class="dropdown-item">test</a> -->
+                            
+                            <button data-bs-toggle="modal" data-bs-target="#modal" class="dropdown-item">Sign Up</button>
+                            <button data-bs-toggle="modal" data-bs-target="#modal2" class="dropdown-item">Log In</button>
+                        </div>
+                    </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact US</a>
+                </li>
+                    
+</ul>
+<!-------- Search Bar-------------->
+<!-- <div class="col-lg-3"> -->
+<form role="search" class="d-sm-none d-none d-md-none d-lg-flex d-xl-flex">
+    <input type="search" id="search" placeholder="Search" class="form-control">
+
+    <button class="btn text-light" type="submit">
+        <i class="fa fa-search"></i>
+    </button>
+</form>
+      <!-- </div> -->
+<!------------- SBar End ---------->
+<!------Blacck Theme Button---------------------->
+<button class="btn btn-outline-dark btn-sm"  id="black">Dark Theme</button>
+<button class="btn btn-outline-light btn-sm" style="display: none;"  id="white">Light Theme</button>
+
+<!--------------------------------------------->
+<!----------------Toggler Icon----------------------------->
+<button class="navbar-toggler float-end d-md-block d-lg-none float-end "  data-bs-toggle="offcanvas" data-bs-target="#mynavbar">
+    <span class="fa fa-bars text-danger fa-1x "></span>
+</button> 
+<!------------------------------------------------>
+
+
+
+
+<div class="modal fade" id="modal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Sign Up</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-lg-6">
+                <div class="form-group">
+                      <label for="" class="form-label">First Name</label>
+                      <input type="text" name="" placeholder="First Name" id="" class="form-control">
+                </div></div>
+                    <div class="col-lg-6">
+                <div class="form-group">
+                      <label for="" class="form-label">Last Name</label>
+                      <input type="text" name="" placeholder="Last Name" id="" class="form-control">
+                    </div></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label for="" class="form-label">Email</label>
+                            <input type="email" name="" placeholder="Enter Email Here" id="" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <label for="" class="form-label">Password</label>
+                            <input type="password" name="" placeholder="Enter Password Here" id="" class="form-control">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button class="btn btn-success" type="submit">Sign Up</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="modal fade" id="modal2">
+<div class="modal-dialog">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h5 class="modal-title">Log In</h5>
+            <button class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+            <div class="form-group">
+            <label for="" class="form-label">UserName :</label>
+            <input type="text" placeholder="Enter UserName Here" class="form-control">
+        </div>
+            <div class="form-group">
+            <label for="" class="form-label">Password :</label>
+            <input type="password" placeholder="Enter Password Here" class="form-control">
+        </div>
+        </div>
+        <div class="modal-footer">
+            <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button class="btn btn-success">Log In</button>
+    </div>
+</div>
+</div>
+</div>
+                </div>
+    </div> 
+</div>
+
+<!-- </div> -->
+</nav>
+    <div class="container mt-5">
+        <!-- <hr> -->
+        <div class="row row1 mb-3">
+    <h3 class="h3 red">
+        <strong>Honda City</strong></h3>
+    </div>
+
+        <div class="row mb-3">
+            <div class="col-lg-4 col-xl-4 col-md-6 col-12 mb-2">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#pro">
+                <div class="card  h-100 ">
+                    <img src="imgs/city-card1.webp" alt="" class="img-fluid">
+                    <div class="card-body bg-red text-light">
+                        <div class="row">
+                        <div class="col-7">
+                        <h4 class="card-title">City 1.2LS MT </h4>
+                        <h4 class="card-title">City 1.2LS CVT </h4>
+                        <!-- <p class="card-text">1497 cc </p> -->
+                    </div>
+                    <div class="col-5 ">
+                        <h5 class="card-title">PKR 4,939,000</h5>
+                        <h5 class="card-title mt-3">PKR 4,939,000</h5>
+                    </div>
+                </div>
+            </div>
+                </div></a>
+            </div>
+            <div class="col-lg-4 col-xl-4 col-md-6 col-12 mb-2">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#pro">
+                    <div class="card h-100">
+                    <img src="imgs/city-card1.webp" alt="" class="img-fluid">
+                    <div class="card-body bg-red text-light">
+                        <div class="row">
+                        <div class="col-7 mt-2">
+                            <h2 class="card-title">City 1.5LS CVT </h2>
+
+                        <!-- <p class="card-text">1497 cc </p> -->
+                    </div>
+                    <div class="col-5 mt-3">
+                        <h5 class="card-title">PKR 4,939,000</h4>
+                    </div>
+                </div>
+            </div>
+        </div></a>
+    </div>
+    <div class="col-lg-4 col-xl-4 col-md-6 col-12 mb-2">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#pro">
+            <div class="card  h-100">
+            <img src="imgs/city-card2.png" alt="" class="img-fluid">
+            <div class="card-body bg-red text-light">
+                <div class="row">
+                <div class="col-7">
+                <h4 class="card-title">Aspire 1.5LAS MT </h4>
+                <h4 class="card-title">Aspire 1.5LAS CVT </h4>
+                <!-- <p class="card-text">1497 cc </p> -->
+            </div>
+            <div class="col-5 ">
+                <h5 class="card-title">PKR 4,939,000</h5>
+                <h5 class="card-title mt-3">PKR 4,939,000</h5>
+            </div>
+        </div>
+    </div>
+        </div></a>
+    </div>
+</div>
+<div class="row row2 mb-3 mt-2">
+    <h3 class="h3 red">
+        <strong>Honda BR-V</strong></h3>
+</div> 
+ <div class="row ">
+    <div class="col-lg-4 col-xl-4 col-md-6 col-12 mb-2">
+        <div class="card  h-100 ">
+            <img src="imgs/BRV-card.png" alt="" class="img-fluid">
+            <div class="card-body bg-red text-light">
+                <div class="row">
+                <div class="col-7">
+                <h4 class="card-title">BR-V CVTs </h4>
+                <!-- <h4 class="card-title">City 1.2LS CVT </h4> -->
+                <!-- <p class="card-text">1497 cc </p> -->
+            </div>
+            <div class="col-5 ">
+                <h5 class="card-title">PKR 4,939,000</h5>
+                <!-- <h5 class="card-title mt-3">PKR 4,939,000</h5> -->
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+   
+</div>
+<div class="row row2 mb-3 mt-2">
+    <h3 class="h3 red">
+        <strong>Honda Civic</strong></h3>
+</div>
+<div class="row mb-3">
+    <div class="col-lg-4 col-xl-4 col-md-6 col-12 mb-2">
+        <div class="card  h-100 ">
+            <img src="imgs/civics-card1.png" alt="" class="img-fluid">
+            <div class="card-body bg-red text-light">
+                <div class="row">
+                <div class="col-7">
+                <h2 class="card-title">Civic Standard </h2>
+                <!-- <h4 class="card-title">City 1.2LS CVT </h4> -->
+                <!-- <p class="card-text">1497 cc </p> -->
+            </div>
+            <div class="col-5 ">
+                <!-- <h5 class="card-title">PKR 4,939,000</h5> -->
+                <h5 class="card-title mt-2">PKR 6,339,000</h5>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xl-4 col-md-6 col-12 mb-2">
+        <div class="card h-100">
+            <img src="imgs/civic-card2.png" alt="" class="img-fluid">
+            <div class="card-body bg-red text-light">
+                <div class="row">
+                <div class="col-7 mt-2">
+                    <h2 class="card-title">Civic Oriel</h2>
+
+                <!-- <p class="card-text">1497 cc </p> -->
+            </div>
+            <div class="col-5 mt-3">
+                <h5 class="card-title">PKR 6,599,000</h4>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="col-lg-4 col-xl-4 col-md-6 col-12 mb-2">
+<div class="card  h-100">
+    <img src="imgs/civicr-card3.png" alt="" class="img-fluid">
+    <div class="card-body bg-red text-light">
+        <div class="row">
+        <div class="col-7">
+        <h2 class="card-title">Civic RS </h2>
+        <!-- <h4 class="card-title">Aspire 1.5LAS CVT </h4> -->
+        <!-- <p class="card-text">1497 cc </p> -->
+    </div>
+    <div class="col-5 mt-2">
+        <h5 class="card-title">PKR 7,549,000</h5>
+        <!-- <h5 class="card-title mt-3">PKR 4,939,000</h5> -->
+    </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row row2 mb-3 mt-2">
+    <h3 class="h3 red">
+        <strong>Honda HR-V</strong></h3>
+</div>
+<div class="row mb-3">
+    <div class="col-lg-4 col-xl-4 col-md-6 col-12 mb-2">
+        <div class="card  h-100 ">
+            <img src="imgs/HR-V-card1.png" alt="" class="img-fluid">
+            <div class="card-body bg-red text-light">
+                <div class="row">
+                <div class="col-7">
+                <h2 class="card-title">HR-V VTI </h2>
+                <!-- <h4 class="card-title">City 1.2LS CVT </h4> -->
+                <!-- <p class="card-text">1497 cc </p> -->
+            </div>
+            <div class="col-5 ">
+                <!-- <h5 class="card-title">PKR 4,939,000</h5> -->
+                <h5 class="card-title mt-2">PKR 5,939,000</h5>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-xl-4 col-md-6 col-12 mb-2">
+        <div class="card h-100">
+            <img src="imgs/hrv-card2.png" alt="" class="img-fluid">
+            <div class="card-body bg-red text-light">
+                <div class="row">
+                <div class="col-7 mt-2">
+                    <h2 class="card-title">HR-V VTI-S</h2>
+
+                <!-- <p class="card-text">1497 cc </p> -->
+            </div>
+            <div class="col-5 mt-3">
+                <h5 class="card-title">PKR 6,199,000</h4>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+<div class="row row2 mb-3 mt-2">
+    <h3 class="h3 red">
+        <strong>Honda CR-V</strong></h3>
+</div>
+<div class="row mb-3">
+    <div class="col-lg-4 col-xl-4 col-md-6 col-12 mb-2">
+        <div class="card  h-100 ">
+            <img src="imgs/crv-card.png" alt="" class="img-fluid">
+            <div class="card-body bg-red text-light">
+                <div class="row">
+                <div class="col-6">
+                <h2 class="card-title">CR-V</h2>
+                <!-- <h4 class="card-title">City 1.2LS CVT </h4> -->
+                <!-- <p class="card-text">1497 cc </p> -->
+            </div>
+            <div class="col-6 ">
+                <!-- <h5 class="card-title">PKR 4,939,000</h5> -->
+                <h5 class="card-title mt-2">Ask For Quotation</h5>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    
+
+</div>
+<div class="row row2 mb-3 mt-2">
+    <h3 class="h3 red">
+        <strong>Honda Accord</strong></h3>
+</div>
+<div class="row mb-3">
+    <div class="col-lg-4 col-xl-4 col-md-6 col-12 mb-2">
+        <div class="card  h-100 ">
+            <img src="imgs/accord-card.png" alt="" class="img-fluid">
+            <div class="card-body bg-red text-light">
+                <div class="row">
+                <div class="col-7">
+                <h2 class="card-title">Accord</h2>
+                <!-- <h4 class="card-title">City 1.2LS CVT </h4> -->
+                <!-- <p class="card-text">1497 cc </p> -->
+            </div>
+            <div class="col-5 ">
+                <!-- <h5 class="card-title">PKR 4,939,000</h5> -->
+                <h5 class="card-title mt-2">PKR 15,499,000</h5>
+            </div>
+        </div>
+    </div>
+        </div>
+    </div>
+    
+
+</div>
+</div>
+<div class="footer container-fluid">
+    <div class="row br">
+        <div class="col-3 justify-content-center d-flex mx-auto">
+        <a href="#top" class="btn-red text-center w-100 py-2">Scroll to Top</a>
+    </div></div>
+    <!-- <div class="br"></div> -->
+    <div class="container h-100">
+    <div class="row ">
+        <div class="col-lg-3 col-12 b-end col-md-4 col-sm-6">
+
+            <div class="row">
+                <!-- <div class="col-4"> -->
+             <table>
+                <tr>
+          <td><div class="location my-3"> <i class="fa-solid fa-2x text-light fa-location-dot text-center px-3 py-2" ></i></div></td>  
+        <!-- </div> -->
+            <!-- <div class="col-8 mt-3"> -->
+             <td><h4 class="text-red pt-1">DealerShip Form </h4></td>   
+            </tr> <!-- </div> -->
+                <tr>
+          <td><div class="location my-3">
+            <!-- <i class="fa text-light "></i> -->
+            <i class="fa-solid fa-2x text-light fa-car-side text-center mx-2 my-2" ></i>
+            </div></td>  
+        <!-- </div> -->
+            <!-- <div class="col-8 mt-3"> -->
+             <td><h4 class="text-red pt-1">Online Booking </h4></td>   
+            </tr> <!-- </div> -->
+                <tr>
+          <td><div class="location my-3"> <i class="fa-solid fa-2x text-light fa-file-pen text-center mx-3 my-2" ></i></div></td>  
+        <!-- </div> -->
+            <!-- <div class="col-8 mt-3"> -->
+             <td><h4 class="text-red pt-1">Corporate</h4></td>   
+            </tr> <!-- </div> -->
+        </table>
+        </div>
+    </div>
+    <div class="col-lg-3 col-12 col-md-4 col-sm-6">
+        <div class="row by">
+            <h5>About Us</h5>
+        </div>
+        <div class="row">
+            <ul class="mt-3 list">
+                <li class="my-2">
+                    Honda Atlas Pakistan (LTD)
+                </li>
+                <li class="my-2">
+                    Financial Reports
+                </li>
+                <li class="my-2">
+                    Site Map</a>
+                </li>
+                <li class="my-2">
+                    Terms and Conditions
+                </li>
+                <li class="my-2">
+                    Privacy Policy
+                </li>
+                <li class="my-2">
+                    Cookies Policy
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-3 col-12 ps-5 col-md-4 col-sm-6">
+        <div class="row by">
+            <h5>Follow Us</h5>
+        </div>
+        <div class="row">
+            <ul class="mt-3 list">
+                <li class="my-2">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    Facebook
+                </li>
+                <li class="my-2">
+                    <i class="fa-solid fa-play"></i>
+
+                    Youtube
+                </li>
+                <li class="my-2">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram
+                </li>
+                <li class="my-2">
+                    <i class="fa-brands fa-linkedin"></i>
+                    Linked in
+                </li>
+                <li class="my-2">
+                    <i class="fa-brands fa-twitter"></i>
+                    Twitter
+                </li>
+                <!-- <li class="my-2">
+                    Cookies Policy
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    <div class="col-lg-3 col-12 ps-5 col-md-4 col-sm-6">
+        <div class="row by">
+            <h5>DealerShip  Network</h5>
+        </div>
+        <div class="row">
+            <ul class="mt-3 list">
+                <li class="my-2">
+                    <!-- <i class="fa-brands fa-facebook-f"></i> -->
+                    3S Dealers
+                </li>
+                <li class="my-2">
+                    <!-- <i class="fa-solid fa-play"></i> -->
+
+                    5S Dealers
+                </li>
+                <li class="my-2">
+                    <!-- <i class="fa-brands fa-instagram"></i> -->
+                    1S Dealers
+                </li>
+                <!-- <li class="my-2">
+                    <i class="fa-brands fa-linkedin"></i>
+                    Linked in
+                </li> -->
+                <!-- <li class="my-2">
+                    <i class="fa-brands fa-twitter"></i>
+                    Twitter
+                </li> -->
+                <!-- <li class="my-2">
+                    Cookies Policy
+                </li> -->
+            </ul>
+        </div>
+    </div>
+    </div>
+</div>
+</div>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/jquery.js"></script>
+<script src="js/model.js"></script>
+<!-- <script>
+    $(document).ready(function(){
+
+
+    })
+</script> -->
+
+</body>
+</html>
